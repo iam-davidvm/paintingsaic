@@ -8,8 +8,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1>Paintings from AIC</h1>
+    </header>
 
-    
+    <main>
+        <section id="search">
+            <form id="search-form">
+                <input type="text" name="q" id="search-form-keyword" placeholder="Keywords">
+                <button id="search-form-button">Search</button>
+            </form>
+            <div id="search-no-results">no results found..</div>
+        </section>
+        <section id="painting">
+            <img src="https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/843,/0/default.jpg" alt="The Garden of Paradise" id="painting-image">
+            <div id="painting-information">
+                <h2 id="painting-information-title">Painting name</h2>
+                <p id="painting-information-painter">Painter name</p>
+            </div>
+        </section>
+    </main>
+
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="js/app.js"></script>
 </body>
