@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paintings from AIC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,13 +16,15 @@
     <main>
         <section id="search">
             <form id="search-form">
-                <input type="text" name="q" id="search-form-keyword" placeholder="Keywords">
+                <input type="text" name="q" id="search-form-keyword" placeholder="Keywords" maxlength="30">
                 <button id="search-form-button">Search</button>
             </form>
-            <div id="search-no-results">no results found..</div>
+            <div id="search-no-results" class="d-none">no results found..</div>
         </section>
         <section id="painting">
-            <img src="https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/843,/0/default.jpg" alt="The Garden of Paradise" id="painting-image">
+            <a href="https://www.artic.edu/artworks/22857/the-garden-of-paradise" target="_blank">
+                <img src="https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/843,/0/default.jpg" alt="The Garden of Paradise" id="painting-image">
+            </a>
             <div id="painting-information">
                 <h2 id="painting-information-title">Painting name</h2>
                 <p id="painting-information-painter">Painter name</p>
