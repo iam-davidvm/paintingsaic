@@ -6,7 +6,7 @@
 
 ## Links
 
-- [Live](<https://www.hetlabovandavid.be/paintingsaic/> "Live View")
+- [Demo website](<https://www.hetlabovandavid.be/paintingsaic/> "Demo website")
 
 ## Screenshots
 
